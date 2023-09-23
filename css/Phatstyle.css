@@ -1,0 +1,262 @@
+
+
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.row1 {
+    width: 100%;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+    
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.giohang {
+    position: fixed;
+    border-radius: 10px;
+    right: 20px;
+    top: 50px;
+    height: 6 0px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+}
+
+.showcart {
+    position: fixed;
+    border-radius: 10px;
+    right: 20px;
+    top: 60px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.giohang img {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+.giohang span {
+    font-weight: bold;
+    font-size: 2vw;
+    color: rgb(49, 189, 54);
+    height: 40px;
+    line-height: 40px;
+}
+
+
+h1 {
+    margin: 20px 0px;
+    font-size: 1.2vw;
+    color: #F30;
+}
+
+.menu {
+    background-color: black;
+    color: #CCC;
+    border-radius: 5px;
+}
+
+.boxtrai {
+    
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+
+.boxcontent {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    background-color: #EEE;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+.boxsp {
+    float: left;
+    width: calc(32% - 10px);
+    min-height: 300px;
+    border: 1px #EEE solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.boxsp input {
+    width: 40px;
+    /* position: absolute; */
+    right: 5px;
+    bottom: 40px;
+    border-radius: 5px;
+    border: 1px rgb(71, 70, 70) solid;
+    
+}
+
+.boxsp button {
+    width: 80px;
+    /* position: absolute; */
+    right: 5px;
+    bottom: 10px;
+    background-color: rgb(85, 83, 83);
+    border-radius: 5px;
+    border: 1px #F90;
+    padding: 5px 0px;
+}
+
+.img img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu ul {
+    padding: 0px 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.8vw;
+}
+
+
+/* giỏ hàng */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+   background-color: #999;
+    
+    text-align: left ;
+}
+
+
+th,td { 
+    padding:0px 10px;
+    border: 2px rgb(71, 70, 70) solid;
+    text-align: left;
+}
+
+td div {
+    width: 90%;
+    padding: 0px 5px;
+    text-align: left;
+    
+}
+
+th div {
+    width: calc(100% - 10px);
+    padding:0px 10px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* menu dọc*/
+
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #CCC solid;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #CCC;
+}
+.mh {
+    text-align: right;
+}
+.dongy {
+    width: 130px;
+    border: 1px rgb(153, 153, 153) solid;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.dongy:hover {
+    background-image: linear-gradient(rgb(249, 142, 116), rgb(237, 64, 64));
+    
+}
